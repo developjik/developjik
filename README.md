@@ -1,5 +1,11 @@
-### Hi there 👋
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=400&section=header&text=developjik&fontSize=100)
+### developjik 소개 페이지 👋
+![trophy](https://github-profile-trophy.vercel.app/?username=developjik)
 
+![본인ID's github stats](https://github-readme-stats.vercel.app/api?username=developjik&show_icons=true)
+[![본인ID's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=developjik&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/developjik)
+<p align="center">123
+</p>
 <!--
 **developjik/developjik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
