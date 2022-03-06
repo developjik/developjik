@@ -2,7 +2,20 @@
    <img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=400&section=header&text=developjik&fontSize=100" alt="header"/>
 </div>
 <br/>
+<div align="center">   
+   <a href="https://developjik.notion.site/0f0b9f81e6f745d2bc11ee9ddefb068c" target="_blank">
+      <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/>
+   </a>
+   <img src="https://img.shields.io/badge/developjik@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/>
+   <a href="https://kr.linkedin.com/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/>
+   </a>
+</div>
 <br/>
+<div align="center">   
+   Hi there!👏 I'm Fronted Web Developer using React.<br/>
+   Sometimes, I develop it with Vue.js, but I prefer React.👍
+</div>   
 <br/>
 <div align="center">
   <h3>Tech Stack</h3>
@@ -15,14 +28,13 @@
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" alt="react"/>
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" alt="vue"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white" alt="node.js"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white" alt="git"/>
 </div>
-<br/>
 <br/>
 <br/>
 <div  align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=developjik&title=Joined2020,Commits,PullRequest, Repositories&column=4&margin-w=30" alt="trophy"/>
 </div>
-<br/>
 <br/>
 <br/>
 <div  align="center" >
