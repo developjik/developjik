@@ -2,7 +2,10 @@
    <img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=400&section=header&text=developjik&fontSize=100" alt="header"/>
 </div>
 <br/>
-<div align="center">   
+<div align="center">  
+   <a href="https://developjik.github.io/" target="_blank">
+      <img src="https://img.shields.io/badge/Blog-FF5722?style=flat-square&logo=Blogger&logoColor=white"/>
+   </a>
    <a href="https://developjik.notion.site/0f0b9f81e6f745d2bc11ee9ddefb068c" target="_blank">
       <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/>
    </a>
