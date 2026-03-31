@@ -68,8 +68,8 @@ const developjik = {
 ## 📊 Activity Snapshot
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=developjik&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=developjik&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=developjik&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" />
+  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=developjik&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" />
 </div>
 
 <div align="center">
