@@ -40,6 +40,12 @@ const developjik = {
 - **[Confluence Export Desktop](https://github.com/developjik/confluence-export-desktop)**: PySide6 기반 Windows GUI와 백그라운드 스케줄링으로 Confluence export workflow를 제품화한 도구입니다.
 - **[Notify Action Hub](https://github.com/developjik/notify-action-hub)**: GitHub Actions metadata, actionlint, notification action 구조를 관리하는 자동화 저장소입니다.
 
+## 🤝 Workflow Signals
+
+- PR-first maintenance with CI checks before merge
+- Duplicate/stale PR cleanup with a clear superseding PR
+- Reviewable AI-assisted workflow logs, release gates, and validation checklists
+
 ---
 
 ## 🎨 Tech Palette
