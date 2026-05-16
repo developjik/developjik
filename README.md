@@ -33,6 +33,15 @@ const developjik = {
 
 ---
 
+## 🧭 Public Proof Points
+
+- **[Nextra Blog](https://developjik-nextra-blog.vercel.app)**: Next.js 16 + Nextra 기반 기술 블로그. MDX 콘텐츠, Pagefind 검색, Giscus 댓글, Vercel 배포 흐름을 운영합니다.
+- **[Plugin Workspace](https://github.com/developjik/plugin)**: Codex/Claude Code용 로컬 플러그인과 개발 workflow 문서를 정리한 실험 공간입니다.
+- **[Confluence Export Desktop](https://github.com/developjik/confluence-export-desktop)**: PySide6 기반 Windows GUI와 백그라운드 스케줄링으로 Confluence export workflow를 제품화한 도구입니다.
+- **[Notify Action Hub](https://github.com/developjik/notify-action-hub)**: GitHub Actions metadata, actionlint, notification action 구조를 관리하는 자동화 저장소입니다.
+
+---
+
 ## 🎨 Tech Palette
 
 <div align="center">
@@ -59,9 +68,9 @@ const developjik = {
 
 ## 🚀 Featured Focus
 
-- **Frontend AI Playbooks**: practical runbooks for release, debugging, PR reviews
-- **Obsidian × Quartz Knowledge System**: connected notes with graph-first workflow
-- **Interview Q&A Engine**: automated, categorized, review-friendly preparation system
+- **Frontend Architecture**: Next.js, React, TypeScript, MDX, search, comments, deployment, and maintainable UI structure
+- **Performance + Accessibility**: lightweight content delivery, responsive layout, semantic docs, and reviewable release checks
+- **AI-assisted Product Workflow**: practical playbooks for design-system rollout, debugging, PR review, and automation guardrails
 
 ---
 
