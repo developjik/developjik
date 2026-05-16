@@ -8,7 +8,7 @@
 
 <br/>
 
-[![Blog](https://img.shields.io/badge/Tech%20Blog-ff6b6b?style=for-the-badge&logo=hashnode&logoColor=white)](https://developjik.github.io/)
+[![Blog](https://img.shields.io/badge/Tech%20Blog-ff6b6b?style=for-the-badge&logo=hashnode&logoColor=white)](https://developjik-nextra-blog.vercel.app)
 [![Notion](https://img.shields.io/badge/Notion%20Notes-111111?style=for-the-badge&logo=notion&logoColor=white)](https://developjik.notion.site/0f0b9f81e6f745d2bc11ee9ddefb068c)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/developjik/)
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:developjik@gmail.com)
