@@ -57,6 +57,8 @@ const developjik = {
 
 **[▶ 라이브 데모](https://developjik.github.io/shimpyo/)**
 
+<img src="assets/shimpyo-hero.png" width="100%" alt="쉼표 서비스 화면" />
+
 근거를 전부 공개하는 한국형 FIRE 시뮬레이터
 
 - 국민연금, 건보료, 세금을 통합한 계산 엔진
@@ -71,6 +73,8 @@ const developjik = {
 ### [고래 지도 · 13F Whale Map](https://github.com/developjik/13f-whale-map)
 
 **[▶ 라이브 데모](https://developjik.github.io/13f-whale-map/)**
+
+<img src="assets/whalemap-hero.png" width="100%" alt="고래 지도 서비스 화면" />
 
 SEC 13F 공시 기관 279곳의 투자 성향 대시보드
 
@@ -151,26 +155,8 @@ SEC 13F 공시 기관 279곳의 투자 성향 대시보드
 ## 🛠 Tech Stack
 
 <div align="center">
-
-### Frontend Core
-![React](https://img.shields.io/badge/React-0f172a?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0f172a?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-0f172a?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0f172a?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
-### UI / State / Content
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
-![Styled Components](https://img.shields.io/badge/Styled--Components-0f172a?style=for-the-badge&logo=styledcomponents&logoColor=DB7093)
-![Zustand](https://img.shields.io/badge/Zustand-0f172a?style=for-the-badge&logo=react&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/TanStack%20Query-0f172a?style=for-the-badge&logo=reactquery&logoColor=FF4154)
-![MDX](https://img.shields.io/badge/MDX-0f172a?style=for-the-badge&logo=mdx&logoColor=white)
-
-### Automation / Delivery
-![Node.js](https://img.shields.io/badge/Node.js-0f172a?style=for-the-badge&logo=nodedotjs&logoColor=339933)
-![Python](https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=3776AB)
-![Vercel](https://img.shields.io/badge/Vercel-0f172a?style=for-the-badge&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0f172a?style=for-the-badge&logo=githubactions&logoColor=2088FF)
-
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,styledcomponents,zustand,reactquery,mdx&perline=9&theme=dark" alt="frontend stack" /><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,py,vite,vercel,githubactions,git&perline=9&theme=dark" alt="tooling stack" />
 </div>
 
 ---
@@ -222,6 +208,8 @@ SEC 13F 공시 기관 279곳의 투자 성향 대시보드
   <img alt="contribution snake animation" src="https://raw.githubusercontent.com/developjik/developjik/output/github-contribution-grid-snake.svg" />
 </picture>
 </div>
+
+<img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution graph" />
 
 
 ---
