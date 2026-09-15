@@ -44,6 +44,50 @@ const developjik = {
 
 ---
 
+## ⚡ Live Products
+
+실제로 배포되어 동작하는 서비스를 직접 설계, 구현, 운영합니다.
+
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [쉼표 · Shimpyo](https://github.com/developjik/shimpyo)
+
+**[▶ 라이브 데모](https://developjik.github.io/shimpyo/)**
+
+근거를 전부 공개하는 한국형 FIRE 시뮬레이터
+
+- 국민연금, 건보료, 세금을 통합한 계산 엔진
+- 역사 데이터 기반 백테스트와 또래 저축률 밴드 비교
+- 44개 golden-case 회귀 테스트로 계산 정확도 검증
+
+`React` `Vite` `TypeScript` `CI/CD`
+
+</td>
+<td width="50%" valign="top">
+
+### [고래 지도 · 13F Whale Map](https://github.com/developjik/13f-whale-map)
+
+**[▶ 라이브 데모](https://developjik.github.io/13f-whale-map/)**
+
+SEC 13F 공시 기관 279곳의 투자 성향 대시보드
+
+- SEC EDGAR 공시 데이터 파이프라인과 분기 자동화
+- 기관 투자 성향을 11가지 유형으로 분류
+- 한국어 데이터 대시보드 UI
+
+`Dashboard` `Data Visualization` `SEC 13F`
+
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+
 ## 🚀 Featured Projects
 
 ### 1. [Nextra Blog](https://github.com/developjik/nextra-blog)
@@ -147,6 +191,13 @@ const developjik = {
 
 ---
 
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=developjik&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" width="100%" />
+</div>
+
+
 ## 📊 Activity Snapshot
 
 <div align="center">
@@ -157,6 +208,15 @@ const developjik = {
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=developjik&theme=tokyonight&hide_border=true&border_radius=12" />
 </div>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/developjik/developjik/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/developjik/developjik/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/developjik/developjik/output/github-contribution-grid-snake.svg" />
+</picture>
+</div>
+
 
 ---
 
