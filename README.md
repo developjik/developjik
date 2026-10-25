@@ -1,88 +1,78 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=developjik&fontAlign=50&fontAlignY=35&desc=Frontend%20Developer%20%7C%20React%20%C2%B7%20Next.js%20%C2%B7%20TypeScript&descAlign=50&descAlignY=55&color=0:8EC5FC,100:E0C3FC&fontColor=ffffff" width="100%" />
+<img src="./assets/banner.svg" width="100%" alt="developjik — agent & desktop tooling" />
 
-<br />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=4D8DFF&center=true&vCenter=true&width=720&lines=designs+the+system%2C+agents+do+the+work;Rust+%C2%B7+Tauri+%C2%B7+TypeScript;building+agents+that+ship+real+products;local-first+desktop+apps+%2B+automation)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=6B7CFF&center=true&vCenter=true&width=760&lines=Building+clean+and+maintainable+frontend+experiences;React+%2B+Next.js+%2B+TypeScript;Turning+AI-assisted+workflows+into+real+products)](https://git.io/typing-svg)
-
-<br />
-
-[![Tech Blog](https://img.shields.io/badge/Tech%20Blog-ff6b6b?style=for-the-badge&logo=hashnode&logoColor=white)](https://developjik-nextra-blog.vercel.app)
-[![Notion](https://img.shields.io/badge/Notion%20Notes-111111?style=for-the-badge&logo=notion&logoColor=white)](https://developjik.notion.site/0f0b9f81e6f745d2bc11ee9ddefb068c)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/developjik/)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:developjik@gmail.com)
+[![views](https://komarev.com/ghpvc/?username=developjik&style=flat-square&color=4d8dff&labelColor=161b22&label=PROFILE+VIEWS)](https://github.com/developjik)
+[![Tech Blog](https://img.shields.io/badge/Tech_Blog-161b22?style=for-the-badge&logo=hashnode&logoColor=4d8dff)](https://developjik-nextra-blog.vercel.app)
+[![Notion](https://img.shields.io/badge/Notion_Notes-161b22?style=for-the-badge&logo=notion&logoColor=4d8dff)](https://developjik.notion.site/0f0b9f81e6f745d2bc11ee9ddefb068c)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=4d8dff)](https://www.linkedin.com/in/developjik/)
+[![Gmail](https://img.shields.io/badge/Gmail-161b22?style=for-the-badge&logo=gmail&logoColor=4d8dff)](mailto:developjik@gmail.com)
 
 </div>
 
 ---
 
-## 👋 About Me
+## 👋 About
 
-프론트엔드 개발자 **developjik**입니다.
+에이전트와 데스크톱 도구를 만드는 개발자 **developjik**입니다.  
+프론트엔드(React · TypeScript)로 시작해, 지금은 **Rust + Tauri**로 로컬에서 도는 제품과 **사람 대신 일하는 AI 에이전트**를 만듭니다. 반복되는 일은 에이전트에게, 설계는 사람에게 — 그 원칙으로 매일 배포합니다.
 
-React, Next.js, TypeScript를 중심으로 사용자가 이해하기 쉬운 UI와 유지보수 가능한 프론트엔드 구조를 만듭니다.  
-최근에는 AI-assisted workflow, GitHub Actions, 자동화 도구를 활용해 개발 생산성을 높이고, 실제로 사용할 수 있는 제품 형태로 정리하는 데 관심이 많습니다.
-
-```ts
-const developjik = {
-  role: "Frontend Developer",
-  core: ["React", "Next.js", "TypeScript"],
-  interests: [
-    "Frontend Architecture",
-    "Performance & Accessibility",
-    "AI-assisted Development Workflow",
-    "Developer Productivity Automation"
-  ],
-  currentlyBuilding: [
-    "Personal tech blog with Next.js 16 + Nextra",
-    "GitHub Actions notification and validation workflows",
-    "Desktop automation tools for repeatable work"
-  ]
+```rust
+struct Developjik {
+    base: &'static str,        // Seoul
+    stack: Vec<&'static str>,  // rust · tauri · typescript · python
+    thesis: &'static str,      // 사람은 설계하고, 에이전트가 일한다
+    shipping: Vec<Project>,    // confluence-studio · damon · ai-note · …
 }
 ```
 
 ---
 
-## ⚡ Live Products
-
-실제로 배포되어 동작하는 서비스를 직접 설계, 구현, 운영합니다.
+## 🚀 Now Shipping
 
 <div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [쉼표 · Shimpyo](https://github.com/developjik/shimpyo)
+### [confluence-studio](https://github.com/developjik/confluence-studio)
 
-**[▶ 라이브 데모](https://developjik.github.io/shimpyo/)**
+Confluence Cloud를 위한 네이티브 데스크톱 워크스페이스. Markdown 편집, 예약 export, AI 챗을 하나의 앱으로.
 
-<img src="assets/shimpyo-hero.png" width="100%" alt="쉼표 서비스 화면" />
+**[▶ 랜딩 페이지](https://developjik.github.io/confluence-studio/)**
 
-근거를 전부 공개하는 한국형 FIRE 시뮬레이터
-
-- 국민연금, 건보료, 세금을 통합한 계산 엔진
-- 역사 데이터 기반 백테스트와 또래 저축률 밴드 비교
-- 44개 golden-case 회귀 테스트로 계산 정확도 검증
-
-`React` `Vite` `TypeScript` `CI/CD`
+`Tauri 2` `Rust` `React 19` `AI Chat`
 
 </td>
 <td width="50%" valign="top">
 
-### [고래 지도 · 13F Whale Map](https://github.com/developjik/13f-whale-map)
+### [damon-agent-core](https://github.com/developjik/damon-agent-core)
 
-**[▶ 라이브 데모](https://developjik.github.io/13f-whale-map/)**
+멀티프로바이더 AI 에이전트 코어 — 하나의 데몬으로 모든 서피스를 커버. 첫 서피스는 [damon-chat-desk](https://github.com/developjik/damon-chat-desk).
 
-<img src="assets/whalemap-hero.png" width="100%" alt="고래 지도 서비스 화면" />
+`Rust` `Agent Runtime` `Multi-Provider`
 
-SEC 13F 공시 기관 279곳의 투자 성향 대시보드
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- SEC EDGAR 공시 데이터 파이프라인과 분기 자동화
-- 기관 투자 성향을 11가지 유형으로 분류
-- 한국어 데이터 대시보드 UI
+### [ai-note](https://github.com/developjik/ai-note)
 
-`Dashboard` `Data Visualization` `SEC 13F`
+로컬 퍼스트 AI 노트 앱. Tantivy 기반 한글 검색과 git 버전 레이어를 얹은 Tauri 데스크톱.
+
+`Rust` `Tantivy` `Local-first`
+
+</td>
+<td width="50%" valign="top">
+
+### [assignment-map](https://github.com/developjik/assignment-map)
+
+AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모전·대회를 매일 추적하는 데이터 리포 + GitHub Pages 대시보드.
+
+`Data Pipeline` `GitHub Pages` `Automation`
 
 </td>
 </tr>
@@ -91,89 +81,30 @@ SEC 13F 공시 기관 279곳의 투자 성향 대시보드
 
 ---
 
+## 🧭 More Work
 
-## 🚀 Featured Projects
-
-### 1. [Nextra Blog](https://github.com/developjik/nextra-blog)
-
-> Next.js 16 + Nextra 기반 개인 기술 블로그
-
-- MDX 기반 기술 문서 작성 환경 구성
-- Pagefind 검색, Giscus 댓글, Vercel 배포 흐름 적용
-- 기술 학습과 프로젝트 회고를 정리하는 개인 지식 베이스로 운영
-
-**Tech:** Next.js, Nextra, MDX, Pagefind, Giscus, Vercel
+- **[nextra-blog](https://github.com/developjik/nextra-blog)** — Next.js 16 + Nextra 기술 블로그 · Pagefind · Giscus → [블로그](https://developjik-nextra-blog.vercel.app)
+- **[notify-action-hub](https://github.com/developjik/notify-action-hub)** — Slack/Discord/Telegram 알림 + action metadata 검증 자동화 허브
+- **[plugin](https://github.com/developjik/plugin) · [plugin-tools](https://github.com/developjik/plugin-tools)** — Codex · Claude Code 플러그인/스킬 실험 워크스페이스
+- **[confluence-export-desktop](https://github.com/developjik/confluence-export-desktop)** — 예약 실행되는 Confluence export Windows GUI
+- **아카이브** — [Classy](https://github.com/developjik/Classy) (WebRTC 실시간 수업 플랫폼) · [Bootcamp](https://github.com/developjik/developjik-bootcamp-archives) · [ExamY](https://github.com/developjik/developjik-examy-archives)
 
 ---
 
-### 2. [Confluence Export Desktop](https://github.com/developjik/confluence-export-desktop)
-
-> 반복적인 Confluence export 작업을 데스크톱 앱으로 제품화한 자동화 도구
-
-- PySide6 기반 Windows GUI 제공
-- 예약 실행, credential 저장, 반복 export workflow 지원
-- 수동 작업을 줄이고 재사용 가능한 업무 도구로 정리
-
-**Tech:** Python, PySide6, Desktop GUI, Scheduling, Automation
-
----
-
-### 3. [Notify Action Hub](https://github.com/developjik/notify-action-hub)
-
-> GitHub Actions 알림과 workflow 검증을 위한 자동화 허브
-
-- Slack, Discord, Telegram 알림 workflow 구조화
-- action metadata, actionlint, validation checklist 관리
-- CI/CD 과정에서 확인 가능한 자동화 품질 기준 정리
-
-**Tech:** JavaScript, GitHub Actions, CI/CD, actionlint, Notification Workflow
-
----
-
-### 4. [Plugin Workspace](https://github.com/developjik/plugin)
-
-> Codex, Claude Code, Hermes 기반 AI 개발 workflow 실험 공간
-
-- 로컬 플러그인, skills, hooks, workflow 문서 정리
-- AI-assisted coding workflow를 실제 개발 루틴에 적용하기 위한 실험
-- 반복 가능한 개발 절차와 검증 방식을 문서화
-
-**Tech:** Python, AI Coding Workflow, Automation, Developer Tools
-
----
-
-## 🧭 Portfolio Archives
-
-오래된 프로젝트도 단순 보관이 아니라 학습 흐름과 프로젝트 경험을 추적할 수 있도록 정리하고 있습니다.
-
-- [Bootcamp Archives](https://github.com/developjik/developjik-bootcamp-archives): 프론트엔드 부트캠프/주차별 과제 아카이브
-- [ExamY Archives](https://github.com/developjik/developjik-examy-archives): ExamY 제품군과 관련 프로젝트 아카이브
-- [Classy](https://github.com/developjik/Classy): WebRTC와 AI를 활용한 실시간 수업 플랫폼
-
----
-
-## 🛠 Tech Stack
+## 🛠 Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,styledcomponents,zustand,reactquery,mdx&perline=9&theme=dark" alt="frontend stack" /><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,py,vite,vercel,githubactions,git&perline=9&theme=dark" alt="tooling stack" />
+<img src="https://skillicons.dev/icons?i=rust,ts,react,tauri,py,nodejs&perline=6&theme=dark" alt="core stack" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=githubactions,git,neovim,vscode,vite,vercel&perline=6&theme=dark" alt="tooling" />
 </div>
 
 ---
 
-## 💡 Engineering Focus
+## 💡 How I Work
 
-- **Readable UI Architecture**  
-  컴포넌트 구조, 상태 관리, 콘텐츠 구조를 명확하게 분리해 유지보수 가능한 프론트엔드를 지향합니다.
-
-- **Performance & Accessibility**  
-  가볍고 접근 가능한 UI, 검색 가능한 문서, 배포 후 검증 가능한 release workflow에 관심이 있습니다.
-
-- **AI-assisted Product Workflow**  
-  AI를 단순 코드 생성 도구가 아니라 기획, 구현, 리뷰, 문서화, 자동화까지 연결되는 개발 workflow로 실험합니다.
-
-- **Automation for Repeated Work**  
-  반복되는 수동 작업을 GitHub Actions, 스크립트, 데스크톱 앱 형태로 줄이는 것을 좋아합니다.
+- **Agents that ship** — AI를 코드 자동완성이 아니라 기획 → 구현 → 리뷰 → 배포까지 담당하는 개발 워크플로로 씁니다. 이 프로필도 제 에이전트(dinobot)가 꾸몄습니다.
+- **Local-first** — 데이터는 내 맥에, 오프라인에서도 도는 데스크톱 제품을 지향합니다.
+- **Automate the repeat** — 반복되는 수동 작업은 GitHub Actions, 스크립트, 데스크톱 앱으로 없앱니다.
 
 ---
 
@@ -189,16 +120,17 @@ SEC 13F 공시 기관 279곳의 투자 성향 대시보드
   <p><sub><b>Pull Shark x3 · Pair Extraordinaire · Quickdraw · YOLO</b></sub></p>
 </div>
 
+---
 
-## 📊 Activity Snapshot
+## 📊 Stats
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=developjik&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" />
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=developjik&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" />
+  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=developjik&show_icons=true&bg_color=0e1116&title_color=4d8dff&icon_color=4d8dff&text_color=e6edf3&border_color=26427a&include_all_commits=true&count_private=true&border_radius=12" />
+  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=developjik&layout=compact&bg_color=0e1116&title_color=4d8dff&icon_color=4d8dff&text_color=e6edf3&border_color=26427a&langs_count=8&border_radius=12" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=developjik&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img height="180" src="https://streak-stats.demolab.com?user=developjik&background=0E1116&border=26427A&currStreakLabel=4D8DFF&sideLabels=E6EDF3&dates=8B949E&numbers=E6EDF3&border_radius=12" />
 </div>
 
 <div align="center">
@@ -211,13 +143,12 @@ SEC 13F 공시 기관 279곳의 투자 성향 대시보드
 
 <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution graph" />
 
-
 ---
 
 <div align="center">
 
-### 🤝 Let’s build useful products with clean frontend and practical automation.
+**사람은 설계하고, 에이전트는 일한다.**
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6a11cb,100:2575fc&height=2&section=footer" width="100%" />
+<sub>✦ 이 프로필은 제가 만든 에이전트 dinobot이 꾸몄습니다 — 배너, 문안, 통계 카드 모두.</sub>
 
 </div>
