@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.svg" width="100%" alt="developjik — agent & desktop tooling" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=4D8DFF&center=true&vCenter=true&width=720&lines=designs+the+system%2C+agents+do+the+work;Rust+%C2%B7+Tauri+%C2%B7+TypeScript;building+agents+that+ship+real+products;local-first+desktop+apps+%2B+automation)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=4D8DFF&center=true&vCenter=true&width=720&lines=frontend+developer+%C3%97+agent+builder;React+%C2%B7+TypeScript+%C2%B7+Rust+%C2%B7+Tauri;designs+the+system%2C+agents+do+the+work;local-first+desktop+apps+%2B+automation)](https://git.io/typing-svg)
 
 [![views](https://komarev.com/ghpvc/?username=developjik&style=flat-square&color=4d8dff&labelColor=161b22&label=PROFILE+VIEWS)](https://github.com/developjik)
 [![Tech Blog](https://img.shields.io/badge/Tech_Blog-161b22?style=for-the-badge&logo=hashnode&logoColor=4d8dff)](https://developjik-nextra-blog.vercel.app)
@@ -17,10 +17,11 @@
 ## 👋 About
 
 에이전트와 데스크톱 도구를 만드는 개발자 **developjik**입니다.  
-프론트엔드(React · TypeScript)로 시작해, 지금은 **Rust + Tauri**로 로컬에서 도는 제품과 **사람 대신 일하는 AI 에이전트**를 만듭니다. 반복되는 일은 에이전트에게, 설계는 사람에게 — 그 원칙으로 매일 배포합니다.
+**Frontend Developer × Agent Builder** — React · TypeScript로 UI를 만들고, **Rust + Tauri**로 로컬에서 도는 제품과 **사람 대신 일하는 AI 에이전트**를 만듭니다. 반복되는 일은 에이전트에게, 설계는 사람에게 — 그 원칙으로 매일 배포합니다.
 
 ```rust
 struct Developjik {
+    role: &'static str,        // Frontend Developer × Agent Builder
     base: &'static str,        // Seoul
     stack: Vec<&'static str>,  // rust · tauri · typescript · python
     thesis: &'static str,      // 사람은 설계하고, 에이전트가 일한다
@@ -94,8 +95,8 @@ AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모�
 ## 🛠 Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=rust,ts,react,tauri,py,nodejs&perline=6&theme=dark" alt="core stack" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=githubactions,git,neovim,vscode,vite,vercel&perline=6&theme=dark" alt="tooling" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,vite,tailwind,vercel&perline=6&theme=dark" alt="frontend" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=rust,tauri,py,nodejs,githubactions,git&perline=6&theme=dark" alt="agents + systems" />
 </div>
 
 ---
