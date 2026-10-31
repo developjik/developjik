@@ -25,7 +25,7 @@ struct Developjik {
     base: &'static str,        // Seoul
     stack: Vec<&'static str>,  // rust · tauri · typescript · python
     thesis: &'static str,      // 사람은 설계하고, 에이전트가 일한다
-    shipping: Vec<Project>,    // confluence-studio · damon · ai-note · …
+    shipping: Vec<Project>,    // confluence-studio · damon · developjik.dev · assignment-map
 }
 ```
 
@@ -60,11 +60,13 @@ Confluence Cloud를 위한 네이티브 데스크톱 워크스페이스. Markdow
 <tr>
 <td width="50%" valign="top">
 
-### [ai-note](https://github.com/developjik/ai-note)
+### [developjik.dev](https://github.com/developjik/developjik.dev)
 
-로컬 퍼스트 AI 노트 앱. Tantivy 기반 한글 검색과 git 버전 레이어를 얹은 Tauri 데스크톱.
+Astro 5 + Tailwind CSS 4로 다시 만든 기술 블로그. MDX 72편 중 '프론트엔드 AI 실무' 플레이북 24편 연재 · Pagefind 검색.
 
-`Rust` `Tantivy` `Local-first`
+**[▶ 블로그 읽기](https://developjik-nextra-blog.vercel.app)**
+
+`Astro 5` `MDX` `Tailwind CSS 4`
 
 </td>
 <td width="50%" valign="top">
@@ -84,7 +86,6 @@ AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모�
 
 ## 🧭 More Work
 
-- **[nextra-blog](https://github.com/developjik/nextra-blog)** — Next.js 16 + Nextra 기술 블로그 · Pagefind · Giscus → [블로그](https://developjik-nextra-blog.vercel.app)
 - **[notify-action-hub](https://github.com/developjik/notify-action-hub)** — Slack/Discord/Telegram 알림 + action metadata 검증 자동화 허브
 - **[plugin](https://github.com/developjik/plugin) · [plugin-tools](https://github.com/developjik/plugin-tools)** — Codex · Claude Code 플러그인/스킬 실험 워크스페이스
 - **[confluence-export-desktop](https://github.com/developjik/confluence-export-desktop)** — 예약 실행되는 Confluence export Windows GUI
