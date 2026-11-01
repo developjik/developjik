@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.svg" width="100%" alt="developjik — agent & desktop tooling" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=4D8DFF&center=true&vCenter=true&width=720&lines=frontend+developer+%C3%97+agent+builder;React+%C2%B7+TypeScript+%C2%B7+Rust+%C2%B7+Tauri;designs+the+system%2C+agents+do+the+work;local-first+desktop+apps+%2B+automation)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=4D8DFF&center=true&vCenter=true&width=720&lines=Frontend+Developer+%C3%97+AI+Agent+Builder;React+19+%C2%B7+TypeScript+%C2%B7+Rust+%C2%B7+Tauri+2;designs+the+interaction%2C+agents+do+the+work;local-first+desktop+apps+%2B+agent+runtime)](https://git.io/typing-svg)
 
 [![views](https://komarev.com/ghpvc/?username=developjik&style=flat-square&color=4d8dff&labelColor=161b22&label=PROFILE+VIEWS)](https://github.com/developjik)
 [![Tech Blog](https://img.shields.io/badge/Tech_Blog-161b22?style=for-the-badge&logo=hashnode&logoColor=4d8dff)](https://developjik-nextra-blog.vercel.app)
@@ -17,13 +17,13 @@
 ## 👋 About
 
 에이전트와 데스크톱 도구를 만드는 개발자 **developjik**입니다.  
-**Frontend Developer × Agent Builder** — React · TypeScript로 UI를 만들고, **Rust + Tauri**로 로컬에서 도는 제품과 **사람 대신 일하는 AI 에이전트**를 만듭니다. 반복되는 일은 에이전트에게, 설계는 사람에게 — 그 원칙으로 매일 배포합니다.
+**Frontend Developer × AI Agent Builder** — React 19와 TypeScript로 사용자 경험(UI/UX)을 설계하고, **Rust + Tauri 2**로 로컬 네이티브 제품과 **백그라운드에서 자율 주행하는 AI 에이전트 런타임**을 만듭니다. 반복되는 일은 에이전트에게, 인터랙션과 설계는 사람에게 — 그 원칙으로 매일 배포합니다.
 
 ```rust
 struct Developjik {
-    role: &'static str,        // Frontend Developer × Agent Builder
+    role: &'static str,        // Frontend Developer × AI Agent Builder
     base: &'static str,        // Seoul
-    stack: Vec<&'static str>,  // rust · tauri · typescript · python
+    stack: Vec<&'static str>,  // react-19 · typescript · rust · tauri-2 · python
     thesis: &'static str,      // 사람은 설계하고, 에이전트가 일한다
     shipping: Vec<Project>,    // confluence-studio · damon · developjik.dev · assignment-map
 }
@@ -40,20 +40,20 @@ struct Developjik {
 
 ### [confluence-studio](https://github.com/developjik/confluence-studio)
 
-Confluence Cloud를 위한 네이티브 데스크톱 워크스페이스. Markdown 편집, 예약 export, AI 챗을 하나의 앱으로.
+Confluence Cloud를 위한 네이티브 데스크톱 워크스페이스. React 19 동시성 에디터와 Damon AI 스트리밍 사이드킥이 결합된 AI Native 제품.
 
 **[▶ 랜딩 페이지](https://developjik.github.io/confluence-studio/)**
 
-`Tauri 2` `Rust` `React 19` `AI Chat`
+`Tauri 2` `Rust` `React 19` `AI Agent`
 
 </td>
 <td width="50%" valign="top">
 
 ### [damon-agent-core](https://github.com/developjik/damon-agent-core)
 
-멀티프로바이더 AI 에이전트 코어 — 하나의 데몬으로 모든 서피스를 커버. 첫 서피스는 [damon-chat-desk](https://github.com/developjik/damon-chat-desk).
+멀티프로바이더 AI 에이전트 통합 런타임 — 단일 데몬으로 모든 서피스(CLI/Desktop/Web) 커버. crates.io & npm 배포.
 
-`Rust` `Agent Runtime` `Multi-Provider`
+`Rust` `Agent Runtime` `JSON-RPC v2` `crates.io / npm`
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Confluence Cloud를 위한 네이티브 데스크톱 워크스페이스. Markdow
 
 ### [developjik.dev](https://github.com/developjik/developjik.dev)
 
-Astro 5 + Tailwind CSS 4로 다시 만든 기술 블로그. MDX 72편 중 '프론트엔드 AI 실무' 플레이북 24편 연재 · Pagefind 검색.
+Astro 5 + Tailwind CSS 4로 구축한 기술 블로그. MDX 72편 중 '프론트엔드 AI 실무' 플레이북 24편 연재 · Pagefind 검색.
 
 **[▶ 블로그 읽기](https://developjik-nextra-blog.vercel.app)**
 
@@ -86,8 +86,8 @@ AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모�
 
 ## 🧭 More Work
 
+- **[plugin](https://github.com/developjik/plugin)** — Codex · Claude Code 전용 에이전트 킷(DevX, Frontend, Contract 등 6종) & 하네스 설계
 - **[notify-action-hub](https://github.com/developjik/notify-action-hub)** — Slack/Discord/Telegram 알림 + action metadata 검증 자동화 허브
-- **[plugin](https://github.com/developjik/plugin) · [plugin-tools](https://github.com/developjik/plugin-tools)** — Codex · Claude Code 플러그인/스킬 실험 워크스페이스
 - **[confluence-export-desktop](https://github.com/developjik/confluence-export-desktop)** — 예약 실행되는 Confluence export Windows GUI
 - **아카이브** — [Classy](https://github.com/developjik/Classy) (WebRTC 실시간 수업 플랫폼) · [Bootcamp](https://github.com/developjik/developjik-bootcamp-archives) · [ExamY](https://github.com/developjik/developjik-examy-archives)
 
@@ -104,9 +104,9 @@ AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모�
 
 ## 💡 How I Work
 
-- **Agents that ship** — AI를 코드 자동완성이 아니라 기획 → 구현 → 리뷰 → 배포까지 담당하는 개발 워크플로로 씁니다. 이 프로필도 제 에이전트(dinobot)가 꾸몄습니다.
-- **Local-first** — 데이터는 내 맥에, 오프라인에서도 도는 데스크톱 제품을 지향합니다.
-- **Automate the repeat** — 반복되는 수동 작업은 GitHub Actions, 스크립트, 데스크톱 앱으로 없앱니다.
+- **Agents that ship** — AI를 단순 코드 자동완성이 아니라 기획 → 구현 → 리뷰 → 배포까지 담당하는 자율 에이전트 파이프라인으로 씁니다.
+- **Local-first & Native Performance** — 사용자 데이터는 로컬에 안전하게 보관하고, Electron 대비 5배 가벼운 Tauri 2 데스크톱 제품을 지향합니다.
+- **Automate the repeat** — 반복되는 수동 작업은 GitHub Actions, 스크립트, 데스크톱 앱으로 완전히 없앱니다.
 
 ---
 
@@ -151,6 +151,6 @@ AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모�
 
 **사람은 설계하고, 에이전트는 일한다.**
 
-<sub>✦ 이 프로필은 제가 만든 에이전트 dinobot이 꾸몄습니다 — 배너, 문안, 통계 카드 모두.</sub>
+<sub>✦ Frontend Developer × AI Agent Builder · developjik</sub>
 
 </div>
