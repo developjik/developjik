@@ -25,7 +25,7 @@ struct Developjik {
     base: &'static str,        // Seoul
     stack: Vec<&'static str>,  // react-19 · typescript · rust · tauri-2 · python
     thesis: &'static str,      // 사람은 설계하고, 에이전트가 일한다
-    shipping: Vec<Project>,    // confluence-studio · damon · developjik.dev · assignment-map
+    shipping: Vec<Project>,    // damon · confluence-studio · assignment-map · developjik.dev
 }
 ```
 
@@ -38,44 +38,51 @@ struct Developjik {
 <tr>
 <td width="50%" valign="top">
 
-### [confluence-studio](https://github.com/developjik/confluence-studio)
+### [Damon](https://github.com/developjik/damon-agent-core) — 하나의 데몬, 모든 서피스
 
-Confluence Cloud를 위한 네이티브 데스크톱 워크스페이스. React 19 동시성 에디터와 Damon AI 스트리밍 사이드킥이 결합된 AI Native 제품.
+Rust로 만든 로컬 에이전트 제어 데몬. Claude Code · Codex CLI · Qwen Code 등 **9종 코딩 에이전트 CLI**를 각자의 양방향 프로토콜로 구동하고, 세션·권한 승인 중계·SQLite FTS5 전문검색 이력·Telegram/Discord/Slack 채널을 데몬 하나가 맡습니다. 웹·CLI·데스크톱은 그 위의 얇은 클라이언트입니다.
 
-**[▶ 랜딩 페이지](https://developjik.github.io/confluence-studio/)**
+**[damon-agent-core](https://github.com/developjik/damon-agent-core)** · **[홈페이지](https://developjik.github.io/damon-agent-core/)** · crates.io `damon-core` 0.8.0 · npm `damon-agent` 0.8.0
 
-`Tauri 2` `Rust` `React 19` `AI Agent`
+웹 서피스 **[damon-chat-desk](https://github.com/developjik/damon-chat-desk)** — Vite + React 19 정적 SPA. 메시지 단위 프로바이더 스위처, 같은 프롬프트를 두 모델에 동시 발사하는 비교 모드, 툴 결과 뷰어 · 진행 중 턴 방향 수정(turn.steer) · 계획 승인 카드 · 턴 분기, 메모리 원장 CRUD, 대화 내보내기(Markdown/JSON). 데몬 없이 체험하는 데모 모드 내장.
+
+`Rust` `JSON-RPC v2` `SQLite FTS5` `React 19`
 
 </td>
 <td width="50%" valign="top">
 
-### [damon-agent-core](https://github.com/developjik/damon-agent-core)
+### [confluence-studio](https://github.com/developjik/confluence-studio)
 
-멀티프로바이더 AI 에이전트 통합 런타임 — 단일 데몬으로 모든 서피스(CLI/Desktop/Web) 커버. crates.io & npm 배포.
+Confluence Cloud를 Markdown 손맛으로 다루는 네이티브 데스크톱 워크스페이스. Tauri 2 + Rust + React 19 — 스페이스 트리, CodeMirror 6 Markdown 에디터, storage XHTML ↔ Markdown 양방향 변환, 예약 export 잡(5종 스케줄 · sha256 건너뛰기 · 실행 이력), OS 키체인 자격증명, Damon 스트리밍 AI 사이드킥. Confluence 계정 없이 화면을 먼저 보는 브라우저 데모 모드.
 
-`Rust` `Agent Runtime` `JSON-RPC v2` `crates.io / npm`
+**[▶ 랜딩 페이지](https://developjik.github.io/confluence-studio/)**
+
+`Tauri 2` `Rust` `React 19` `CodeMirror 6`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [developjik.dev](https://github.com/developjik/developjik.dev)
+### [assignment-map](https://github.com/developjik/assignment-map)
 
-Astro 5 + Tailwind CSS 4로 구축한 기술 블로그. MDX 72편 중 '프론트엔드 AI 실무' 플레이북 24편 연재 · Pagefind 검색.
+AI로 만들어 제출하는 기회 — 채용 과제·해커톤·대회·공모전·밋업을 매일 03:00 KST에 수집해, AI 사용을 금지하지 않는 것만 정책 근거 문장과 함께 공개하는 데이터 리포 + 정적 대시보드. 지금 200건 넘게 추적 중. 키보드 중심 표, 우측 상세 패널, 마감 캘린더, `.ics` 내보내기, RSS/JSON 피드, 자체 안티-슬롭 린터. 운영비 ₩0.
 
-**[▶ 블로그 읽기](https://developjik-nextra-blog.vercel.app)**
+**[▶ 대시보드](https://developjik.github.io/assignment-map/)**
 
-`Astro 5` `MDX` `Tailwind CSS 4`
+`React 18` `Rollup` `GitHub Actions` `GitHub Pages`
 
 </td>
 <td width="50%" valign="top">
 
-### [assignment-map](https://github.com/developjik/assignment-map)
+### [developjik.dev](https://github.com/developjik/developjik.dev)
 
-AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모전·대회를 매일 추적하는 데이터 리포 + GitHub Pages 대시보드.
+Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 73편, 그중 '이직에 바로 먹히는 프론트엔드 AI 실무' 시리즈 24편. Pagefind 전문 검색과 ⌘K 커맨드 팔레트, 포스트별 OG 이미지 자동 생성, 시리즈·태그·아카이브 뷰.
 
-`Data Pipeline` `GitHub Pages` `Automation`
+**[▶ 블로그 읽기](https://developjik-nextra-blog.vercel.app)**  
+최근 글 — [AI 과제 지도(assignment-map) 구축기](https://developjik-nextra-blog.vercel.app/posts/assignment-map-build-log/)
+
+`Astro 5` `MDX` `Tailwind CSS 4` `Pagefind`
 
 </td>
 </tr>
@@ -86,9 +93,9 @@ AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모�
 
 ## 🧭 More Work
 
-- **[plugin](https://github.com/developjik/plugin)** — Codex · Claude Code 전용 에이전트 킷(DevX, Frontend, Contract 등 6종) & 하네스 설계
+- **[plugin](https://github.com/developjik/plugin)** — Claude Code · Codex · Cursor용 에이전트 킷 6종(프론트엔드 기본기, DevX, 구현 계약, 제품 정의, 지속 학습, 업무 산출물) & 하네스 설계
 - **[notify-action-hub](https://github.com/developjik/notify-action-hub)** — Slack/Discord/Telegram 알림 + action metadata 검증 자동화 허브
-- **[confluence-export-desktop](https://github.com/developjik/confluence-export-desktop)** — 예약 실행되는 Confluence export Windows GUI
+- **[confluence-export-desktop](https://github.com/developjik/confluence-export-desktop)** — 예약 실행되는 Confluence export Windows GUI (PySide6)
 - **아카이브** — [Classy](https://github.com/developjik/Classy) (WebRTC 실시간 수업 플랫폼) · [Bootcamp](https://github.com/developjik/developjik-bootcamp-archives) · [ExamY](https://github.com/developjik/developjik-examy-archives)
 
 ---
@@ -105,8 +112,8 @@ AI가 만들어 제출하는 모든 기회 — 채용 과제·해커톤·공모�
 ## 💡 How I Work
 
 - **Agents that ship** — AI를 단순 코드 자동완성이 아니라 기획 → 구현 → 리뷰 → 배포까지 담당하는 자율 에이전트 파이프라인으로 씁니다.
-- **Local-first & Native Performance** — 사용자 데이터는 로컬에 안전하게 보관하고, Electron 대비 5배 가벼운 Tauri 2 데스크톱 제품을 지향합니다.
-- **Automate the repeat** — 반복되는 수동 작업은 GitHub Actions, 스크립트, 데스크톱 앱으로 완전히 없앱니다.
+- **Local-first & Native Performance** — 사용자 데이터는 로컬에 안전하게 보관하고, Electron 대신 **Tauri 2(Rust 코어 + 웹 UI)** 로 가벼운 데스크톱 제품을 만듭니다.
+- **Automate the repeat** — 매일 도는 데이터 수집, 예약 export, 알림·검증 워크플로처럼 반복되는 수동 작업은 GitHub Actions와 데스크톱 앱으로 없앱니다.
 
 ---
 
