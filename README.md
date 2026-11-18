@@ -77,9 +77,9 @@ AI로 만들어 제출하는 기회 — 채용 과제·해커톤·대회·공모
 
 ### [developjik.dev](https://github.com/developjik/developjik.dev)
 
-Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 73편, 그중 '이직에 바로 먹히는 프론트엔드 AI 실무' 시리즈 24편. Pagefind 전문 검색과 ⌘K 커맨드 팔레트, 포스트별 OG 이미지 자동 생성, 시리즈·태그·아카이브 뷰.
+Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 74편, 그중 '이직에 바로 먹히는 프론트엔드 AI 실무' 시리즈 24편. Pagefind 전문 검색과 ⌘K 커맨드 팔레트, 포스트별 OG 이미지 자동 생성, 시리즈·태그·아카이브 뷰.
 
-**[▶ 블로그 읽기](https://developjik-nextra-blog.vercel.app)**  
+**[▶ 블로그 읽기](https://developjik-nextra-blog.vercel.app)** · `developjik-nextra-blog.vercel.app`  
 최근 글 — [AI 과제 지도(assignment-map) 구축기](https://developjik-nextra-blog.vercel.app/posts/assignment-map-build-log/)
 
 `Astro 5` `MDX` `Tailwind CSS 4` `Pagefind`
@@ -96,6 +96,7 @@ Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 73편, 그중 '�
 - **[plugin](https://github.com/developjik/plugin)** — Claude Code · Codex · Cursor용 에이전트 킷 6종(프론트엔드 기본기, DevX, 구현 계약, 제품 정의, 지속 학습, 업무 산출물) & 하네스 설계
 - **[notify-action-hub](https://github.com/developjik/notify-action-hub)** — Slack/Discord/Telegram 알림 + action metadata 검증 자동화 허브
 - **[confluence-export-desktop](https://github.com/developjik/confluence-export-desktop)** — 예약 실행되는 Confluence export Windows GUI (PySide6)
+- **OSS 기여** — [Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code) PR [#4412](https://github.com/Yeachan-Heo/gajae-code/pull/4412) merged · 3.1k★ TypeScript 에이전트 오케스트레이터의 coordinator MCP ping keepalive 응답 처리 수정
 - **아카이브** — [Classy](https://github.com/developjik/Classy) (WebRTC 실시간 수업 플랫폼) · [Bootcamp](https://github.com/developjik/developjik-bootcamp-archives) · [ExamY](https://github.com/developjik/developjik-examy-archives)
 
 ---
@@ -132,11 +133,6 @@ Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 73편, 그중 '�
 ---
 
 ## 📊 Stats
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=developjik&show_icons=true&bg_color=0e1116&title_color=4d8dff&icon_color=4d8dff&text_color=e6edf3&border_color=26427a&include_all_commits=true&count_private=true&border_radius=12" />
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=developjik&layout=compact&bg_color=0e1116&title_color=4d8dff&icon_color=4d8dff&text_color=e6edf3&border_color=26427a&langs_count=8&border_radius=12" />
-</div>
 
 <div align="center">
   <img height="180" src="https://streak-stats.demolab.com?user=developjik&background=0E1116&border=26427A&currStreakLabel=4D8DFF&sideLabels=E6EDF3&dates=8B949E&numbers=E6EDF3&border_radius=12" />
