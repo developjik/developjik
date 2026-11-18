@@ -135,7 +135,7 @@ Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 74편, 그중 '�
 ## 📊 Stats
 
 <div align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=developjik&background=0E1116&border=26427A&currStreakLabel=4D8DFF&sideLabels=E6EDF3&dates=8B949E&numbers=E6EDF3&border_radius=12" />
+  <img height="180" src="https://streak-stats.demolab.com?user=developjik&background=0E1116&border=26427A&ring=4D8DFF&fire=4D8DFF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=4D8DFF&sideLabels=E6EDF3&dates=8B949E&border_radius=12" />
 </div>
 
 <div align="center">
