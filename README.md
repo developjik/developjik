@@ -77,10 +77,10 @@ AI로 만들어 제출하는 기회 — 채용 과제·해커톤·대회·공모
 
 ### [developjik.dev](https://github.com/developjik/developjik.dev)
 
-Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 74편, 그중 '이직에 바로 먹히는 프론트엔드 AI 실무' 시리즈 24편. Pagefind 전문 검색과 ⌘K 커맨드 팔레트, 포스트별 OG 이미지 자동 생성, 시리즈·태그·아카이브 뷰.
+Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 69편, 그중 '이직에 바로 먹히는 프론트엔드 AI 실무' 시리즈 19편(24편을 5편 통합편으로 재편 중). Pagefind 전문 검색과 ⌘K 커맨드 팔레트, 포스트별 OG 이미지 자동 생성, 시리즈·태그·아카이브 뷰.
 
 **[▶ 블로그 읽기](https://developjik-nextra-blog.vercel.app)** · `developjik-nextra-blog.vercel.app`  
-최근 글 — [AI 과제 지도(assignment-map) 구축기](https://developjik-nextra-blog.vercel.app/posts/assignment-map-build-log/)
+최근 글 — [AI가 쓴 코드를 배포해도 되는가 — 검증 게이트 설계 이야기](https://developjik-nextra-blog.vercel.app/posts/frontend-ai-quality-gates)
 
 `Astro 5` `MDX` `Tailwind CSS 4` `Pagefind`
 
