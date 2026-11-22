@@ -25,7 +25,7 @@ struct Developjik {
     base: &'static str,        // Seoul
     stack: Vec<&'static str>,  // react-19 · typescript · rust · tauri-2 · python
     thesis: &'static str,      // 사람은 설계하고, 에이전트가 일한다
-    shipping: Vec<Project>,    // damon · confluence-studio · assignment-map · developjik.dev
+    shipping: Vec<Project>,    // damon · confluence-studio · spec-studio · assignment-map · developjik.dev
 }
 ```
 
@@ -86,14 +86,38 @@ Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 83편, 그중 '�
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [spec-studio](https://github.com/developjik/spec-studio)
+
+기획 올인원 툴 — 스펙·계약·골든셋을 **SQLite 하나의 소스 오브 트루스**로 관리하고, 구현 → 독립 검증 → QA 게이트를 도는 에이전트 워크플로. 브리프→스펙→태스크 분해, 계약 98종·골든셋 검증, 변경 제안/되돌리기.
+
+**[▶ 라이브 데모](https://developjik.github.io/spec-studio/)** · Apache-2.0
+
+`TypeScript` `SQLite` `React 19` `pnpm`
+
+</td>
+<td width="50%" valign="top">
+
+### [Damon 생태계 · 대회 출품]
+
+**[damon-chat-desk](https://github.com/developjik/damon-chat-desk)** — Damon 데몬의 웹 서피스(위 카드)  
+**[skelekit](https://github.com/developjik/skelekit)** — spec-driven 프론트엔드 스캐폴딩 킷 · Kiroween 2026 출품  
+**[ksponco-goldentime](https://github.com/developjik/ksponco-goldentime)** — 올림픽공원 실시간 주차 골든타임 예측 (KSPONCO 공공데이터 경진대회)
+
+`React` `Vite` `GitHub Pages`
+
+</td>
+</tr>
 </table>
 </div>
 
 ---
 
-## 🤖 Agent Tooling Suite — 에이전트 개발 도구 9종 (npm)
+## 🤖 Agent Tooling Suite — 에이전트 개발 도구 10종 (npm)
 
-에이전트 앱을 만들며 반복해서 필요했던 관측·검증 도구 9종. 2026-11-22 npm v0.1.0 공개.
+에이전트 앱을 만들며 반복해서 필요했던 관측·검증 도구 10종. 2026-11-22 npm 공개.
 
 | 도구 | 하는 일 | npm |
 | --- | --- | --- |
@@ -106,12 +130,14 @@ Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 83편, 그중 '�
 | [streamscope](https://github.com/developjik/streamscope) | AI 스트리밍 UI 녹화·재생·장애 주입 (SSE·NDJSON·AG-UI·AI SDK) | [streamscope](https://www.npmjs.com/package/streamscope) |
 | [agent-ball](https://github.com/developjik/agent-ball) | GitHub Issue 기반 멀티에이전트 턴테이킹 오케스트레이터 (human-in-the-loop) | [@developjik/agent-ball](https://www.npmjs.com/package/@developjik/agent-ball) |
 | [livesay](https://github.com/developjik/livesay) | 스크린리더가 실제로 듣는 AI UI 감사·교정 (ariaNotify·ARIA live) — [데모](https://developjik.github.io/livesay/) | [livesay](https://www.npmjs.com/package/livesay) |
+| [sqlite-graph-mcp](https://github.com/developjik/sqlite-graph-mcp) | SQLite 스키마를 코드 그래프로 — 심볼·참조·브랜치 diff 쿼리 MCP 서버 · MCP Registry 등재 | [@developjik/sqlite-graph-mcp](https://www.npmjs.com/package/@developjik/sqlite-graph-mcp) |
 
 ---
 
 ## 🧭 More Work
 
 - **[plugin](https://github.com/developjik/plugin)** — Claude Code · Codex · Cursor용 에이전트 킷 6종(프론트엔드 기본기, DevX, 구현 계약, 제품 정의, 지속 학습, 업무 산출물) & 하네스 설계
+- **[plugin-tools](https://github.com/developjik/plugin-tools)** — Claude·Codex 플러그인 빌더·평가 하네스 (marketplace 메타데이터 · self-host 검증)
 - **[notify-action-hub](https://github.com/developjik/notify-action-hub)** — Slack/Discord/Telegram 알림 + action metadata 검증 자동화 허브
 - **[confluence-export-desktop](https://github.com/developjik/confluence-export-desktop)** — 예약 실행되는 Confluence export Windows GUI (PySide6)
 - **OSS 기여** — [Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code) PR [#4412](https://github.com/Yeachan-Heo/gajae-code/pull/4412) merged · 3.1k★ TypeScript 에이전트 오케스트레이터의 coordinator MCP ping keepalive 응답 처리 수정
