@@ -91,6 +91,24 @@ Astro 5 + Tailwind CSS 4로 다시 지은 기술 블로그. MDX 83편, 그중 '�
 
 ---
 
+## 🤖 Agent Tooling Suite — 에이전트 개발 도구 9종 (npm)
+
+에이전트 앱을 만들며 반복해서 필요했던 관측·검증 도구 9종. 2026-11-22 npm v0.1.0 공개.
+
+| 도구 | 하는 일 | npm |
+| --- | --- | --- |
+| [agent-eye](https://github.com/developjik/agent-eye) | 브라우저 에이전트 프로파일러 — 토큰 청구, DOM/ARIA 노이즈, false-success 검증 | [@developjik/agent-eye](https://www.npmjs.com/package/@developjik/agent-eye) |
+| [agentleak](https://github.com/developjik/agentleak) | 웹의 숨은 AI 전용 지시문·UA 클로킹·공개 vs 에이전트 텍스트 델타 감사 | [@developjik/agentleak](https://www.npmjs.com/package/@developjik/agentleak) |
+| [agent-ui-guard](https://github.com/developjik/agent-ui-guard) | 스트리밍 AI 앱의 UI·툴콜 불변식 E2E (속성기반) | [agent-ui-guard](https://www.npmjs.com/package/agent-ui-guard) |
+| [mcp-dual](https://github.com/developjik/mcp-dual) | MCP stateless 사양 호환 검사기·듀얼-에라 심 프록시·마이그레이션 툴킷 | [mcp-dual](https://www.npmjs.com/package/mcp-dual) |
+| [proofshot](https://github.com/developjik/proofshot) | 에이전트 PR용 before/after 스크린샷·픽셀 diff·a11y 증거 — [데모](https://developjik.github.io/proofshot/) | [@developjik/proofshot](https://www.npmjs.com/package/@developjik/proofshot) |
+| [harness-bench](https://github.com/developjik/harness-bench) | 내 저장소에서 실제 과제를 캐내 코딩 하네스를 벤치마크 | [@developjik/harness-bench](https://www.npmjs.com/package/@developjik/harness-bench) |
+| [streamscope](https://github.com/developjik/streamscope) | AI 스트리밍 UI 녹화·재생·장애 주입 (SSE·NDJSON·AG-UI·AI SDK) | [streamscope](https://www.npmjs.com/package/streamscope) |
+| [agent-ball](https://github.com/developjik/agent-ball) | GitHub Issue 기반 멀티에이전트 턴테이킹 오케스트레이터 (human-in-the-loop) | [@developjik/agent-ball](https://www.npmjs.com/package/@developjik/agent-ball) |
+| [livesay](https://github.com/developjik/livesay) | 스크린리더가 실제로 듣는 AI UI 감사·교정 (ariaNotify·ARIA live) — [데모](https://developjik.github.io/livesay/) | [livesay](https://www.npmjs.com/package/livesay) |
+
+---
+
 ## 🧭 More Work
 
 - **[plugin](https://github.com/developjik/plugin)** — Claude Code · Codex · Cursor용 에이전트 킷 6종(프론트엔드 기본기, DevX, 구현 계약, 제품 정의, 지속 학습, 업무 산출물) & 하네스 설계
